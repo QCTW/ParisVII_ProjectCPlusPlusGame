@@ -1,0 +1,5 @@
+//Question;Answer in Number;Option1;Option2;Option3;...
+Who is the current president of French Republic?;3;Barack Obama;François Truffaut;Francois Hollande;François Mitterrand
+Who is the current president of United States?;1;Barack Obama;François Truffaut;Francois Hollande;François Mitterrand
+Which country is NOT in the European Union?;4;France;Lithuania;Malta;Turkey
+Which one is NOT correct about Paris?;3;Paris is the capital of France;Paris has 20 arrondissements;The mayor of Paris is a white male;La Ville Lumière refers to Paris

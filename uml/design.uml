@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_MckGcKDeEeWfttHn7V_Fxw" name="Base">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_NIQHwKDeEeWfttHn7V_Fxw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_MfznsKDeEeWfttHn7V_Fxw" name="GamePlayFlow">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_ZYaR0KDeEeWfttHn7V_Fxw" name="GUI" coveredBy="_H55XEKDfEeWfttHn7V_Fxw _WOmLwKDfEeWfttHn7V_Fxw _yiNQQKPdEeW9jc70T6Cy0w _GhWfQKPeEeW9jc70T6Cy0w _nCz_UKPeEeW9jc70T6Cy0w _pt9sEKPgEeW9jc70T6Cy0w _iz61oKPhEeW9jc70T6Cy0w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_bsIA4KDeEeWfttHn7V_Fxw" name="GameControler" coveredBy="_H54wAKDfEeWfttHn7V_Fxw _WOmy0KDfEeWfttHn7V_Fxw _lyCrgKDfEeWfttHn7V_Fxw _RA4OoKPdEeW9jc70T6Cy0w _h1A6MKPdEeW9jc70T6Cy0w _rJL0QKPdEeW9jc70T6Cy0w _yiMCIKPdEeW9jc70T6Cy0w _7JLtIKPdEeW9jc70T6Cy0w __uPMsKPdEeW9jc70T6Cy0w _GhVRIKPeEeW9jc70T6Cy0w _nC1NcKPeEeW9jc70T6Cy0w _5XT08KPfEeW9jc70T6Cy0w _5XUcAKPfEeW9jc70T6Cy0w _pt9FAKPgEeW9jc70T6Cy0w _5Sph8KPgEeW9jc70T6Cy0w _-Q7Z0KPgEeW9jc70T6Cy0w _GOshoKPhEeW9jc70T6Cy0w _GOtIsKPhEeW9jc70T6Cy0w _iz5ngKPhEeW9jc70T6Cy0w _ktetYKPjEeW9jc70T6Cy0w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_fQdqUKDeEeWfttHn7V_Fxw" name="Move" coveredBy="_lyDSkKDfEeWfttHn7V_Fxw _RA3nkKPdEeW9jc70T6Cy0w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_ghplYKDeEeWfttHn7V_Fxw" name="Player" coveredBy="_h1CIUKPdEeW9jc70T6Cy0w _ktdfQKPjEeW9jc70T6Cy0w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_imZEUKDeEeWfttHn7V_Fxw" name="Platform" coveredBy="_rJKmIKPdEeW9jc70T6Cy0w _5SqJAKPgEeW9jc70T6Cy0w _-Q6ywKPgEeW9jc70T6Cy0w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_lCZzwKDeEeWfttHn7V_Fxw" name="Question" coveredBy="_7JM7QKPdEeW9jc70T6Cy0w __uNXgKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_H54wAKDfEeWfttHn7V_Fxw" name="MessageSend" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_H54I8KDfEeWfttHn7V_Fxw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_H55XEKDfEeWfttHn7V_Fxw" name="MessageRecv" covered="_ZYaR0KDeEeWfttHn7V_Fxw" message="_H54I8KDfEeWfttHn7V_Fxw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WOmLwKDfEeWfttHn7V_Fxw" name="MessageSend0" covered="_ZYaR0KDeEeWfttHn7V_Fxw" message="_WOlksKDfEeWfttHn7V_Fxw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WOmy0KDfEeWfttHn7V_Fxw" name="MessageRecv0" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_WOlksKDfEeWfttHn7V_Fxw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lyCrgKDfEeWfttHn7V_Fxw" name="MessageSend1" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_lyCEcKDfEeWfttHn7V_Fxw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lyDSkKDfEeWfttHn7V_Fxw" name="MessageRecv1" covered="_fQdqUKDeEeWfttHn7V_Fxw" message="_lyCEcKDfEeWfttHn7V_Fxw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RA3nkKPdEeW9jc70T6Cy0w" name="MessageSend2" covered="_fQdqUKDeEeWfttHn7V_Fxw" message="_RA0kQKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RA4OoKPdEeW9jc70T6Cy0w" name="MessageRecv2" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_RA0kQKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_h1A6MKPdEeW9jc70T6Cy0w" name="MessageSend3" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_h0_sEKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_h1CIUKPdEeW9jc70T6Cy0w" name="MessageRecv3" covered="_ghplYKDeEeWfttHn7V_Fxw" message="_h0_sEKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rJKmIKPdEeW9jc70T6Cy0w" name="MessageSend4" covered="_imZEUKDeEeWfttHn7V_Fxw" message="_rJJYAKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rJL0QKPdEeW9jc70T6Cy0w" name="MessageRecv4" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_rJJYAKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yiMCIKPdEeW9jc70T6Cy0w" name="MessageSend5" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_yiK0AKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yiNQQKPdEeW9jc70T6Cy0w" name="MessageRecv5" covered="_ZYaR0KDeEeWfttHn7V_Fxw" message="_yiK0AKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7JLtIKPdEeW9jc70T6Cy0w" name="MessageSend6" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_7JKfAKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7JM7QKPdEeW9jc70T6Cy0w" name="MessageRecv6" covered="_lCZzwKDeEeWfttHn7V_Fxw" message="_7JKfAKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__uNXgKPdEeW9jc70T6Cy0w" name="MessageSend7" covered="_lCZzwKDeEeWfttHn7V_Fxw" message="__uLiUKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__uPMsKPdEeW9jc70T6Cy0w" name="MessageRecv7" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="__uLiUKPdEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GhVRIKPeEeW9jc70T6Cy0w" name="MessageSend8" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_GhS04KPeEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GhWfQKPeEeW9jc70T6Cy0w" name="MessageRecv8" covered="_ZYaR0KDeEeWfttHn7V_Fxw" message="_GhS04KPeEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nCz_UKPeEeW9jc70T6Cy0w" name="MessageSend9" covered="_ZYaR0KDeEeWfttHn7V_Fxw" message="_nCyxMKPeEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nC1NcKPeEeW9jc70T6Cy0w" name="MessageRecv9" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_nCyxMKPeEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GOtIsKPhEeW9jc70T6Cy0w" name="MessageRecv14" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_GOrTgKPhEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5XT08KPfEeW9jc70T6Cy0w" name="MessageSend10" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_5XR_wKPfEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5XUcAKPfEeW9jc70T6Cy0w" name="MessageRecv10" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_5XR_wKPfEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pt9FAKPgEeW9jc70T6Cy0w" name="MessageSend11" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_pt7P0KPgEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pt9sEKPgEeW9jc70T6Cy0w" name="MessageRecv11" covered="_ZYaR0KDeEeWfttHn7V_Fxw" message="_pt7P0KPgEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5Sph8KPgEeW9jc70T6Cy0w" name="MessageSend12" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_5SoT0KPgEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5SqJAKPgEeW9jc70T6Cy0w" name="MessageRecv12" covered="_imZEUKDeEeWfttHn7V_Fxw" message="_5SoT0KPgEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-Q6ywKPgEeW9jc70T6Cy0w" name="MessageSend13" covered="_imZEUKDeEeWfttHn7V_Fxw" message="_-Q5koKPgEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iz61oKPhEeW9jc70T6Cy0w" name="Message0Recv" covered="_ZYaR0KDeEeWfttHn7V_Fxw" message="_iz4ZYKPhEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GOshoKPhEeW9jc70T6Cy0w" name="MessageSend14" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_GOrTgKPhEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-Q7Z0KPgEeW9jc70T6Cy0w" name="MessageRecv13" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_-Q5koKPgEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iz5ngKPhEeW9jc70T6Cy0w" name="Message0Send" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_iz4ZYKPhEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ktdfQKPjEeW9jc70T6Cy0w" name="Message0Send0" covered="_ghplYKDeEeWfttHn7V_Fxw" message="_ktcRIKPjEeW9jc70T6Cy0w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ktetYKPjEeW9jc70T6Cy0w" name="Message0Recv0" covered="_bsIA4KDeEeWfttHn7V_Fxw" message="_ktcRIKPjEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_H54I8KDfEeWfttHn7V_Fxw" name="ShowPawnSelection" receiveEvent="_H55XEKDfEeWfttHn7V_Fxw" sendEvent="_H54wAKDfEeWfttHn7V_Fxw"/>
+    <message xmi:type="uml:Message" xmi:id="_WOlksKDfEeWfttHn7V_Fxw" name="SelectedPawnID" receiveEvent="_WOmy0KDfEeWfttHn7V_Fxw" sendEvent="_WOmLwKDfEeWfttHn7V_Fxw"/>
+    <message xmi:type="uml:Message" xmi:id="_lyCEcKDfEeWfttHn7V_Fxw" name="GetMoveNumber" receiveEvent="_lyDSkKDfEeWfttHn7V_Fxw" sendEvent="_lyCrgKDfEeWfttHn7V_Fxw"/>
+    <message xmi:type="uml:Message" xmi:id="_RA0kQKPdEeW9jc70T6Cy0w" name="Int" receiveEvent="_RA4OoKPdEeW9jc70T6Cy0w" sendEvent="_RA3nkKPdEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_h0_sEKPdEeW9jc70T6Cy0w" name="UpdateCell(CellStart, CellEnd, Pawn)" receiveEvent="_h1CIUKPdEeW9jc70T6Cy0w" sendEvent="_h1A6MKPdEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_rJJYAKPdEeW9jc70T6Cy0w" name="UpdateConfirmed" receiveEvent="_rJL0QKPdEeW9jc70T6Cy0w" sendEvent="_rJKmIKPdEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_yiK0AKPdEeW9jc70T6Cy0w" name="RefreshDisplay" receiveEvent="_yiNQQKPdEeW9jc70T6Cy0w" sendEvent="_yiMCIKPdEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_7JKfAKPdEeW9jc70T6Cy0w" name="GetQuestion" receiveEvent="_7JM7QKPdEeW9jc70T6Cy0w" sendEvent="_7JLtIKPdEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="__uLiUKPdEeW9jc70T6Cy0w" name="Question DAO" receiveEvent="__uPMsKPdEeW9jc70T6Cy0w" sendEvent="__uNXgKPdEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_GhS04KPeEeW9jc70T6Cy0w" name="DisplayQuestion" receiveEvent="_GhWfQKPeEeW9jc70T6Cy0w" sendEvent="_GhVRIKPeEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_nCyxMKPeEeW9jc70T6Cy0w" name="Answer" receiveEvent="_nC1NcKPeEeW9jc70T6Cy0w" sendEvent="_nCz_UKPeEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_5XR_wKPfEeW9jc70T6Cy0w" name="VerifyAnswer" receiveEvent="_5XUcAKPfEeW9jc70T6Cy0w" sendEvent="_5XT08KPfEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_pt7P0KPgEeW9jc70T6Cy0w" name="DisplayResult" receiveEvent="_pt9sEKPgEeW9jc70T6Cy0w" sendEvent="_pt9FAKPgEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_5SoT0KPgEeW9jc70T6Cy0w" name="GetCellAction" receiveEvent="_5SqJAKPgEeW9jc70T6Cy0w" sendEvent="_5Sph8KPgEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_-Q5koKPgEeW9jc70T6Cy0w" name="Action DAO" receiveEvent="_-Q7Z0KPgEeW9jc70T6Cy0w" sendEvent="_-Q6ywKPgEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_GOrTgKPhEeW9jc70T6Cy0w" name="Message" receiveEvent="_GOtIsKPhEeW9jc70T6Cy0w" sendEvent="_GOshoKPhEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_iz4ZYKPhEeW9jc70T6Cy0w" name="DisplayAction" receiveEvent="_iz61oKPhEeW9jc70T6Cy0w" sendEvent="_iz5ngKPhEeW9jc70T6Cy0w"/>
+    <message xmi:type="uml:Message" xmi:id="_ktcRIKPjEeW9jc70T6Cy0w" name="UpdateStatus" receiveEvent="_ktetYKPjEeW9jc70T6Cy0w" sendEvent="_ktdfQKPjEeW9jc70T6Cy0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_45tSsLMkEeWJaOxklEnMDA" name="createCards()" client="_YAzf0LMgEeWJaOxklEnMDA" supplier="_dSsQMLMgEeWJaOxklEnMDA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_ApLf0LMlEeWJaOxklEnMDA" name="createDice()" client="_YAzf0LMgEeWJaOxklEnMDA" supplier="_a2k2QLMkEeWJaOxklEnMDA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_OqGncLMmEeWJaOxklEnMDA" name="getEmptyCell()" client="_yNSokLMlEeWJaOxklEnMDA" supplier="_zljcALMlEeWJaOxklEnMDA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_W6eiMLMmEeWJaOxklEnMDA" name="getGreenCell()" client="_yNSokLMlEeWJaOxklEnMDA" supplier="_1cCcgLMlEeWJaOxklEnMDA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_cl-scLMmEeWJaOxklEnMDA" name="getOrangeCell()" client="_yNSokLMlEeWJaOxklEnMDA" supplier="_21mQcLMlEeWJaOxklEnMDA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_emwRYLMmEeWJaOxklEnMDA" name="getSnakeHead()" client="_MckGcKDeEeWfttHn7V_Fxw" supplier="_4ZDAMLMlEeWJaOxklEnMDA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_l2nKULMmEeWJaOxklEnMDA" name="getSnakeTail()" client="_yNSokLMlEeWJaOxklEnMDA" supplier="_7FTyILMlEeWJaOxklEnMDA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_pILowLMmEeWJaOxklEnMDA" name="getStair()" client="_yNSokLMlEeWJaOxklEnMDA" supplier="_9IApsLMlEeWJaOxklEnMDA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_7FX00LMrEeWJaOxklEnMDA" name="getPawn()" client="_vauaULMlEeWJaOxklEnMDA" supplier="_cBtvgLMrEeWJaOxklEnMDA"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_CdeDwLMsEeWJaOxklEnMDA" name="Move">
+    <packagedElement xmi:type="uml:Class" xmi:id="_a2k2QLMkEeWJaOxklEnMDA" name="Dice">
+      <generalization xmi:type="uml:Generalization" xmi:id="_NC4yALMmEeWJaOxklEnMDA" general="_b6MzQLMgEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_hPd1gLMlEeWJaOxklEnMDA" name="GetMoveNumber"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_b6MzQLMgEeWJaOxklEnMDA" name="Tool">
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_bXzekLMlEeWJaOxklEnMDA" name="GetMoveNumber()"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dSsQMLMgEeWJaOxklEnMDA" name="Cards">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Me5UILMmEeWJaOxklEnMDA" general="_b6MzQLMgEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_fnz7MLMlEeWJaOxklEnMDA" name="GetMoveNumber"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YAzf0LMgEeWJaOxklEnMDA" name="MoveFactory">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Njwf4LMlEeWJaOxklEnMDA" name="createCards"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_PO6aILMlEeWJaOxklEnMDA" name="createDice"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_SfhPQLMlEeWJaOxklEnMDA" name="getInstance"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_NYltgLMsEeWJaOxklEnMDA" name="Player">
+    <packagedElement xmi:type="uml:Class" xmi:id="_cBtvgLMrEeWJaOxklEnMDA" name="Pawn" visibility="public">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gGzG0LMxEeWJaOxklEnMDA" name="Pointer" visibility="public" type="_KwChcLMtEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_WL3HsLMxEeWJaOxklEnMDA" name="getPlayer"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_W6VXQLMxEeWJaOxklEnMDA" name="setPlayer"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ZKAT0LMxEeWJaOxklEnMDA" name="getPosInCell"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ZnqgMLMxEeWJaOxklEnMDA" name="setPosInCell"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_bjXX4LMxEeWJaOxklEnMDA" name="getId"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_cGmAwLMxEeWJaOxklEnMDA" name="setId"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_cx95ALMxEeWJaOxklEnMDA" name="getCellId"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dZDHILMxEeWJaOxklEnMDA" name="setCellId"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_rwQE8LMrEeWJaOxklEnMDA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HRD5ILMtEeWJaOxklEnMDA" name="AI">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TrRXELMtEeWJaOxklEnMDA" general="_KwChcLMtEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qU7rkLMtEeWJaOxklEnMDA" name="selectPawn"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_rCq7ULMtEeWJaOxklEnMDA" name="answerQuestion"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Js_JALMtEeWJaOxklEnMDA" name="Human">
+      <generalization xmi:type="uml:Generalization" xmi:id="_UjZR4LMtEeWJaOxklEnMDA" general="_KwChcLMtEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_sfHrMLMtEeWJaOxklEnMDA" name="selectPawn"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Pk2XcLMxEeWJaOxklEnMDA" name="answerQuestion"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LkutwLMtEeWJaOxklEnMDA" name="PlayerFactory">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_kReUULMtEeWJaOxklEnMDA" name="getIAPlayer"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_lVLNALMtEeWJaOxklEnMDA" name="getHumanPlayer"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_bFSRkLMtEeWJaOxklEnMDA" name="getHumanPlayer()" client="_LkutwLMtEeWJaOxklEnMDA" supplier="_Js_JALMtEeWJaOxklEnMDA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_dEABALMtEeWJaOxklEnMDA" name="getIAPlayer" client="_LkutwLMtEeWJaOxklEnMDA" supplier="_HRD5ILMtEeWJaOxklEnMDA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KwChcLMtEeWJaOxklEnMDA" name="Player">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rCle8LMxEeWJaOxklEnMDA" name="Array" type="_cBtvgLMrEeWJaOxklEnMDA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_tA8CALMxEeWJaOxklEnMDA" name="Pointer" type="_cBtvgLMrEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_5WEdkLMvEeWJaOxklEnMDA" name="getId"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_CarRoLMwEeWJaOxklEnMDA" name="getName"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_DCzBkLMwEeWJaOxklEnMDA" name="setName"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_F9R1sLMwEeWJaOxklEnMDA" name="getNbPawn"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_HaokgLMwEeWJaOxklEnMDA" name="addPawn"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_J4iKULMwEeWJaOxklEnMDA" name="hasPawn"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_MvE5oLMwEeWJaOxklEnMDA" name="getPawn"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_NZM0sLMwEeWJaOxklEnMDA" name="getSelectedPawn"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_R7-cULMwEeWJaOxklEnMDA" name="getMoveAgain"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Sj27sLMwEeWJaOxklEnMDA" name="setMoveAgain"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_VmMEQLMwEeWJaOxklEnMDA" name="getRightAnswers"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_WOFxwLMwEeWJaOxklEnMDA" name="incRightAnswers"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_X-SkELMwEeWJaOxklEnMDA" name="setRightAnswers"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_airMYLMwEeWJaOxklEnMDA" name="getPassMove"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_bG7I8LMwEeWJaOxklEnMDA" name="setPassMove"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_evyGALMwEeWJaOxklEnMDA" name="answerQuestion"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_nM41MLMwEeWJaOxklEnMDA" name="movePawn"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_pmKhELMtEeWJaOxklEnMDA" name="selectPawn()"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_mfFekLMxEeWJaOxklEnMDA" name="getPawn" client="_KwChcLMtEeWJaOxklEnMDA" supplier="_cBtvgLMrEeWJaOxklEnMDA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_RGnecLMsEeWJaOxklEnMDA" name="Cell">
+    <packagedElement xmi:type="uml:Class" xmi:id="_vauaULMlEeWJaOxklEnMDA" name="Cell">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RR4IsLMrEeWJaOxklEnMDA" name="Array" type="_cBtvgLMrEeWJaOxklEnMDA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1AFRkLMrEeWJaOxklEnMDA" value="20"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1AMmULMrEeWJaOxklEnMDA" value="20"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_kB2LoLMnEeWJaOxklEnMDA" name="getId"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_n3WdkLMnEeWJaOxklEnMDA" name="getSymbole"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_onYzYLMnEeWJaOxklEnMDA" name="setSymbole"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_tKxfALMnEeWJaOxklEnMDA" name="getPawnMax"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ucb7MLMnEeWJaOxklEnMDA" name="setPawnMax"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_zDXDALMnEeWJaOxklEnMDA" name="getNbPawn"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_0FcLELMnEeWJaOxklEnMDA" name="setNbPawn"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_4A0bgLMnEeWJaOxklEnMDA" name="add"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_62LfELMnEeWJaOxklEnMDA" name="removePawn"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_85RYMLMnEeWJaOxklEnMDA" name="getPawn"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_86wUALMpEeWJaOxklEnMDA" name="isEmpty"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_gxi4gLMnEeWJaOxklEnMDA" name="action(Player &amp;player, Pawn &amp;pawn)"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zljcALMlEeWJaOxklEnMDA" name="EmptyCell">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HslbsLMmEeWJaOxklEnMDA" general="_vauaULMlEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_XXDpILMpEeWJaOxklEnMDA" name="action"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1cCcgLMlEeWJaOxklEnMDA" name="GreenCell">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ISSw0LMmEeWJaOxklEnMDA" general="_vauaULMlEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qGuNQLMpEeWJaOxklEnMDA" name="action"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_21mQcLMlEeWJaOxklEnMDA" name="OragneCell">
+      <generalization xmi:type="uml:Generalization" xmi:id="_I0uIcLMmEeWJaOxklEnMDA" general="_vauaULMlEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_rAdRoLMpEeWJaOxklEnMDA" name="action"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4ZDAMLMlEeWJaOxklEnMDA" name="SnakeHead">
+      <generalization xmi:type="uml:Generalization" xmi:id="_JQ68QLMmEeWJaOxklEnMDA" general="_vauaULMlEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_rrxfgLMpEeWJaOxklEnMDA" name="action"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7FTyILMlEeWJaOxklEnMDA" name="SnakeTail">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Jsv8oLMmEeWJaOxklEnMDA" general="_vauaULMlEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_sWa_ALMpEeWJaOxklEnMDA" name="action"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9IApsLMlEeWJaOxklEnMDA" name="Stair">
+      <generalization xmi:type="uml:Generalization" xmi:id="_KLKW8LMmEeWJaOxklEnMDA" general="_vauaULMlEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_tBbq4LMpEeWJaOxklEnMDA" name="action"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yNSokLMlEeWJaOxklEnMDA" name="CellFactory">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_EelZMLMnEeWJaOxklEnMDA" name="getEmptyCell"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_GX9VoLMnEeWJaOxklEnMDA" name="getGreenCell"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Hqjl8LMnEeWJaOxklEnMDA" name="getOrangeCell"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_JZChALMnEeWJaOxklEnMDA" name="getSnakeHead"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Kuf4ELMnEeWJaOxklEnMDA" name="getSnakeTail"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_MUrywLMnEeWJaOxklEnMDA" name="getStair"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_AGek8LMxEeWJaOxklEnMDA" name="Platform">
+    <packagedElement xmi:type="uml:Class" xmi:id="_EPDj4LMxEeWJaOxklEnMDA" name="GameInfo">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ycq1cLMyEeWJaOxklEnMDA" name="Pointer" type="_KwChcLMtEeWJaOxklEnMDA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3N0QQLMyEeWJaOxklEnMDA" name="Pointer" visibility="public" type="_HkCisLMxEeWJaOxklEnMDA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_73HWoLMyEeWJaOxklEnMDA" name="Pointer" visibility="public" type="_a2k2QLMkEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_cXmbwLMyEeWJaOxklEnMDA" name="getMaxPawnPerCell"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_e9Kv0LMyEeWJaOxklEnMDA" name="setMaxPawnPerCell"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ga4D8LMyEeWJaOxklEnMDA" name="getNbPawns"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_g00N8LMyEeWJaOxklEnMDA" name="setNbPawns"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_iidbgLMyEeWJaOxklEnMDA" name="getNbPlayers"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_kQRBILMyEeWJaOxklEnMDA" name="getPlayerByID"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_mIBM8LMyEeWJaOxklEnMDA" name="addPlayer"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_mwRfwLMyEeWJaOxklEnMDA" name="removePlayer"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_oyt4oLMyEeWJaOxklEnMDA" name="getPlatform"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qP62cLMyEeWJaOxklEnMDA" name="addPlatform"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_rGqRMLMyEeWJaOxklEnMDA" name="getDice"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_sDGrULMyEeWJaOxklEnMDA" name="addDice"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_vR7XwLMyEeWJaOxklEnMDA" name="showGameStat"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FdE2MLMxEeWJaOxklEnMDA" name="GameUtils">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_OH40wLMyEeWJaOxklEnMDA" name="initializeGame"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_UBGD0LMyEeWJaOxklEnMDA" name="getWinner"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_VmbC4LMyEeWJaOxklEnMDA" name="moveWithQuestion"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_XNlN8LMyEeWJaOxklEnMDA" name="allPawnsSameCell"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Y5n5ALMyEeWJaOxklEnMDA" name="play"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HkCisLMxEeWJaOxklEnMDA" name="Platform">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_uG9kALMzEeWJaOxklEnMDA" name="Array" visibility="public" type="_vauaULMlEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_eHZwALMzEeWJaOxklEnMDA" name="hasEmpty"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_hEvD0LMzEeWJaOxklEnMDA" name="getNbEmptyCell"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ilUFwLMzEeWJaOxklEnMDA" name="getNbCell"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_kCcLELMzEeWJaOxklEnMDA" name="add"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_loNPALMzEeWJaOxklEnMDA" name="getCell"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_m9K20LMzEeWJaOxklEnMDA" name="updateCell"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_opDw4LMzEeWJaOxklEnMDA" name="showPlatform"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_p78VELMzEeWJaOxklEnMDA" name="hydrate"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_svvSYLMzEeWJaOxklEnMDA" name="hydrateWithCells"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LNZ2ELMxEeWJaOxklEnMDA" name="Question">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_RBKSgLMzEeWJaOxklEnMDA" name="getQuestion"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_RvTK4LMzEeWJaOxklEnMDA" name="getAnswer"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_TzURELMzEeWJaOxklEnMDA" name="getPossibleAnswers"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_UUfrgLMzEeWJaOxklEnMDA" name="getSizeOfPossibleAnswers"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_M4cbkLMxEeWJaOxklEnMDA" name="QuestionFactory">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zBEGgLMzEeWJaOxklEnMDA" name="Pointer" visibility="public" type="_M4cbkLMxEeWJaOxklEnMDA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_HEU18LMzEeWJaOxklEnMDA" name="getQuestion"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_JMwiELMzEeWJaOxklEnMDA" name="getArithmeticsQuestion"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_KkLA8LMzEeWJaOxklEnMDA" name="getInstance"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_LyenILMzEeWJaOxklEnMDA" name="setQuestionSheetPath"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_5whoILMzEeWJaOxklEnMDA" name="getQuestion()" client="_M4cbkLMxEeWJaOxklEnMDA" supplier="_LNZ2ELMxEeWJaOxklEnMDA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_cx9xoLM0EeWJaOxklEnMDA" name="getCell()" client="_HkCisLMxEeWJaOxklEnMDA" supplier="_vauaULMlEeWJaOxklEnMDA"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Wihi8LMrEeWJaOxklEnMDA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WijYILMrEeWJaOxklEnMDA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
