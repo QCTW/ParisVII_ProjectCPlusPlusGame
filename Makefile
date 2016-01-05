@@ -15,9 +15,9 @@ TEST_FILES:=$(wildcard $(BIN_DIR)test*.exe)
 CFLAGS=-std=c++11 -stdlib=libstdc++ -g -Wall
 
 # the build target executable:
-all: clean $(OBJ_DIR) compile.components main.exe game1.exe
+all: clean $(OBJ_DIR) compile.components main.exe
 
-compile.components: player cell platform move
+compile.components: player cell platform move view
 
 $(OBJ_DIR):
 	mkdir -p $(OBJ_DIR)
@@ -50,10 +50,7 @@ obj/%.o : view/%.cpp
 
 main.exe: $(BIN_DIR)
 	$(RM) obj/main.o
-	$(CC) $(CFLAGS) -o $(BIN_DIR)main.exe obj/*.o main.cpp
-
-game1.exe: $(BIN_DIR)
-	$(CC) $(CFLAGS) -o $(BIN_DIR)game1.exe obj/*.o game1.cpp
+	$(CC) $(CFLAGS) $(SFML_LIB) -o $(BIN_DIR)main.exe obj/*.o main.cpp
 
 test	: clean $(OBJ_DIR) compile.components $(BIN_DIR) test.compile test.run
 
@@ -62,7 +59,7 @@ test.run:$(TEST_FILES)
 
 test.compile: $(addprefix $(BIN_DIR),$(notdir $(patsubst %.cpp,%.exe, $(wildcard test/*.cpp))))
 $(BIN_DIR)%.exe: test/%.cpp
-	$(CC) $(CFLAGS) -o $@ obj/*.o $<
+	$(CC) $(CFLAGS) $(SFML_LIB) -o $@ obj/*.o $<
 
 clean   :
 	$(RM) $(OBJ_DIR)*

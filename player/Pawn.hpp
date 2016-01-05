@@ -5,7 +5,7 @@
 #include "../view/RGB.hpp"
 using namespace std;
 class Player;
-class Pawn
+class Pawn : public view::Displayable
 {
 private:
 	int _id;

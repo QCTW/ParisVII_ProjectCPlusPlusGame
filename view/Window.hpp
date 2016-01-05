@@ -25,10 +25,18 @@ private:
     Platform* pfPlatform;
 	void drawPlatform();
     void setEvents(); // Add events
-    int width;
-    int height;
+    int nBorderSize;
+    int nbCells;
+    int nNbOfCellsPerColumn;
     sf::RenderWindow rWindow; // Main window
-    //sf::Texture backgroundTexture; // Texture for the background
+    sf::Texture cellTexture; // Texture for cell
+    sf::Texture pawnTexture; //Texture for pawn
+    sf::RectangleShape diceDisplay; //Dice
+    sf::Sprite spritePawn;
+    sf::RectangleShape rectangleMessageBox;
+    sf::Text textMessageBox;
+    sf::Font fontGeneral;
+    string convertInt2String(int nToConvert);
 
 public:
 	Window(GameInfo* gi, Platform* pf);

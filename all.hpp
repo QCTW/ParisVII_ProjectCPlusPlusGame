@@ -21,3 +21,6 @@
 #include "./player/PlayerFactory.hpp"
 #include "./player/AI.hpp"
 
+#include "./view/Displayable.hpp"
+#include "./view/RGB.hpp"
+#include "./view/Window.hpp"

@@ -10,14 +10,14 @@
 
 #include "RGB.hpp"
 #include <string>
-#include <SFML/Graphics.hpp>
+
 using namespace std;
 
 namespace view
 {
 
 enum ObjectType { PawnView, PlayerView, CellView, DiceView, MessageView };
-enum ObjectSize { PawnX=15, PawnY=15, PlayerX=120, PlayerY=60, CellX=100, CellY=100, DiceSize=120, MessageX=240, MessageY=60 };
+enum ObjectSize { PawnX=15, PawnY=15, PlayerX=100, PlayerY=50, CellX=100, CellY=100, DiceSize=100, MessageX=200, MessageY=50 };
 
 class Displayable
 {
@@ -29,7 +29,6 @@ public:
 	virtual ~Displayable();
 	RGB& getColor();
 	int randomRGBA();
-	sf::Sprite getDisplayObject();
 };
 
 } /* namespace view */
